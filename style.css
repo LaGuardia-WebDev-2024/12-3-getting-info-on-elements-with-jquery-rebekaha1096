@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Poetsen+One&display=swap");
+
+html {
+  background-color: DarkSeaGreen;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+}
