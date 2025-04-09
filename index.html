@@ -39,7 +39,17 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
- 
+      
+      $("#math-heading").mouseover(function () {
+        var math = $("#math-heading").text();
+        $("#math-heading").text(math + "!");
+        $("#math-heading").css("color", "thistle");
+      });
+
+      
+      $("#math-heading").mouseout(function () {
+        $("#math-heading").css("color", "black");
+      });
     </script>
   </body>
 </html>
